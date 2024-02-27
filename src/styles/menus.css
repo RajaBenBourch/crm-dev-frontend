@@ -1,0 +1,12 @@
+/* styles.css */
+.ant-menu-dark .ant-menu-item, /* cible tous les éléments de menu */
+.ant-menu-dark .ant-menu-item-icon, /* cible les icônes des éléments de menu */
+.ant-menu-dark .ant-menu-item-only-child-icon, /* cible les icônes des éléments de menu qui sont les seuls enfants */
+.ant-menu-dark .ant-menu-item-selected { /* cible les éléments de menu sélectionnés */
+  color: #67686e !important; /* couleur du texte */
+}
+
+.ant-menu-dark .ant-menu-item:hover, /* cible les éléments de menu au survol */
+.ant-menu-dark .ant-menu-item-selected:hover { /* cible les éléments de menu sélectionnés au survol */
+  background-color: #40a9ff !important; /* couleur de fond */
+}
